@@ -1,0 +1,157 @@
+/* Gobal */
+
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell; 
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+	margin: 0;
+}
+
+.main {
+	padding-top: 69px;
+	opacity: 0.9;
+	width: 1200px;
+	margin: auto;
+}
+
+.flex-container {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div {
+	display: block;
+}
+
+
+/* Header Bar */
+
+header {
+	height: 69px;
+	z-index: 1;
+	position: fixed;
+	margin: auto;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+	background-color: black;
+	align-items: center;
+
+}
+
+header img {
+	height: 50px;
+	margin-left: 10px;
+}
+
+nav {
+	text-align: right;
+	flex-grow: 1;
+}
+
+nav span {
+	display: inline-block;
+	padding: 20px 10px;
+
+}
+
+
+nav a {
+	color: seashell;
+}
+
+/* Section 1 - Our Mission */
+
+#our-mission {
+	height: 700px;
+	width: 1200px;
+	margin: auto;
+	background-image: url(../../resources/images/img-mission-background.jpg);
+	padding-top: 70px;
+}
+
+#mission {
+	background-color: black;
+	margin: auto;
+	width: 1200px;
+}
+
+
+
+/* Section 2 - Tea of the Month */
+
+#tea-of-the-month {
+	height: 700px;
+	width: 1000px;
+	background-color: black;
+	margin: auto;
+	padding-top: 70px;
+}
+
+.tea-photos {
+	padding: 5px;
+}
+
+.tea-photos img {
+	display: block;
+	margin: 10px;
+	height: 200px;
+	width: 300px;
+}
+
+.tea-photos span {
+	width: 300px;
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+}
+
+
+/* Section 3 - Locations */
+
+#locations {
+	height: 500px;
+	padding-top: 70px;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	background-image: url(../../resources/images/img-locations-background.jpg);
+}
+
+.location-boxes {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+	padding: 10px;
+	margin: 5px 20px;
+	display: block;
+	background-color: black;
+	opacity: 1;
+	text-align: center;
+}
+
+.location-boxes p {
+	display: block;
+	text-align: center;
+}
+
+/* Section 4 - Contact */
+
+.contact-details {
+	height: 200px;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+
+/* Footer */
+
+p {
+	text-align: left;
+	margin-left: 20px;
+}
